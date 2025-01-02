@@ -1,0 +1,11 @@
+{
+    "name": "base",
+    "image": "mcr.microsoft.com/devcontainers/base:latest",
+    "features": {
+      "ghcr.io/devcontainers/features/git:1": {},
+      "ghcr.io/devcontainers/features/node:1": {},
+      "ghcr.io/devcontainers-contrib/features/go-task:1": {}
+    },
+    "remoteUser": "vscode",
+    "postCreateCommand": "/bin/sh .devcontainer/post_create.sh"
+}
